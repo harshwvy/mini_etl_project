@@ -3,6 +3,7 @@
 A mini-production grade ETL pipeline using PySpark, designed to process weather and flood data for various places in Mizoram, India. This project simulates monthly data ingestion from multiple source tables, performs aggregations, runs data quality checks, and loads summarized insights into a target table for reporting and analytics.
 
 📌 Project Objective
+
 ✅ Process monthly weather and flood readings from source tables.
 ✅ Perform data quality checks on incoming data.
 ✅ Calculate aggregated metrics (average temperature, total rainfall, etc.).
@@ -109,6 +110,7 @@ python src/etl_job.py
   }
 }
 📌 Future Enhancements
+
 Automate monthly data load scheduling via Airflow / AWS Glue
 
 Add schema validation (column type checks)
@@ -118,4 +120,5 @@ Integrate Delta Lake / Hudi for incremental loads
 Build dashboards in Tableau / Metabase for insights
 
 📜 License
+
 This project is for learning, demonstration, and interview preparation purposes. No production use without adaptation and testing.
