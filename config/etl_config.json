@@ -1,0 +1,12 @@
+{
+  "tables": {
+    "place_master": "public.place_master",
+    "weather_readings": "public.weather_readings",
+    "flood_alerts": "public.flood_alerts",
+    "load_status": "public.load_status",
+    "target_summary": "public.mizoram_weather_summary"
+  },
+  "log_path": "/Users/vyomkeshharshwardhan/Downloads/dataeng_project/etl_mini_project/logs/etl_run.log",
+  "month_date": "2024-05-31",
+  "load_status_id": 1
+}
